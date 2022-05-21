@@ -1,0 +1,10 @@
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    color: #000;
+    font-size: 14px;
+    opacity: 0.75;
+    text-align: center;
+    padding: 20px;
+}
