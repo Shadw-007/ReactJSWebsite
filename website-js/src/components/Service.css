@@ -1,0 +1,69 @@
+h1.heading{
+    font-size: 60px;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+p.heading_p{
+    margin-bottom: 0;
+    text-align: center;
+    line-height: 1.5;
+}
+
+
+/***************************** SERVICE SECTION ************************************/
+
+.service {
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(4, 9, 30, 0.1));
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.service h1{
+    margin-right: 15px;
+}
+
+.service-box img {
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.75s ease;
+}
+
+.service-box img:hover {
+    transform: scale(1.1);
+}
+
+.service-box h4 {
+    color: white;
+    text-shadow: -2px 2px 2px #000;
+    display: block;
+    font-weight: 600;
+    font-size: 20px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 45%;
+    opacity: 0;
+    transition: all 0.75s ease;
+}
+
+.service-box:hover h4 {
+    opacity: 1;
+}
+
+.service-box {
+    position: relative;
+    margin-bottom: 30px;
+
+}

@@ -9,7 +9,7 @@ function Header() {
           <h3>Empowering Imagination</h3>
            <Typed 
             className="typed-text"
-            strings={["Videography", "Photography", "Cinematography", "Graphic Design", "Animations"]}
+            strings={["Always Learning", "Always Creating", "Always Entertaining"]}
             typeSpeed={40}
             backSpeed={60}
             loop
